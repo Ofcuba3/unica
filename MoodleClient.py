@@ -11,7 +11,7 @@ class MoodleClient(object):
         self.username = user
         self.password = passw
         self.session = requests.Session()
-        self.path = 'https://posgrado.unica.cu/'
+        self.path = 'https://cursos.uo.edu.cu/'
         self.userdata = None
         self.userid = ''
 
